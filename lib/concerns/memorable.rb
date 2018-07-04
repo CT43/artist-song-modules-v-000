@@ -1,5 +1,5 @@
 module Memorable
-  def self.all
+    def self.all
       @@artists
     end
 
