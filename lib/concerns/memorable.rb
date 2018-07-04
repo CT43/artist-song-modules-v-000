@@ -1,9 +1,9 @@
 module Memorable
-    def all
-      @@artists
-    end
+   def self.reset_all
+     self.all.clear
+   end
 
-    def reset_all
-      self.all.clear
-    end
+   def self.count
+     @@artists.count
+   end
 end
