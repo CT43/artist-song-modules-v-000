@@ -3,7 +3,7 @@ module Memorable
      self.all.clear
    end
 
-   def self.count
-     @@artists.count
+   def count
+     @@self.count
    end
 end
